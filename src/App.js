@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+import Typewriter from 'typewriter-effect';
+
+import About from './components/About';
+import Experience from './components/Experience';
+import Footer from './components/Footer';
+import Header from './components/Header';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="one">
+        <Typewriter className="openingText"
+          onInit={(typewriter) => {
+            typewriter
+              .typeString('System.out.println("Hello World!");')
+              .pauseFor(1000)
+              .deleteChars(15)
+              .pauseFor(500)
+              .typeString('My name is <span class="s">Emily</span>");')
+              .start();
+          }}
+        />
+      </div>
+      <Header />
+      <About />
+      <Experience />
+      <Footer />
     </div>
+
   );
 }
 

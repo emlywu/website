@@ -1,0 +1,32 @@
+#about-main {
+  height: 100vh;
+  color: black;
+  text-align: center;
+  padding-top: 25vh;
+  margin: 0px;
+  background-color: #f5ebe0;
+}
+
+.text {
+  padding: 5%;
+  display: flex;
+}
+
+.about-tw {
+  color: black;
+  text-align: left;
+  margin-left: 1.5em;
+}
+
+.about-img {
+  background-color: darkgray;
+  height: 300px;
+  width: 100%;
+  margin: 20px;
+}
+
+.about-txt {
+  padding: 10%;
+  align-self: flex-start;
+  text-align: left;
+}

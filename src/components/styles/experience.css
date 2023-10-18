@@ -1,0 +1,15 @@
+#exp-main {
+  height: 100vh;
+  color: black;
+  text-align: center;
+  padding-top: 50vh;
+  margin: 0px;
+  background-color: #f5ebe0;
+  display: flex;
+}
+
+.sw {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}

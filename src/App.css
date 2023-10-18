@@ -1,38 +1,63 @@
-.App {
+@font-face {
+  font-family: FiraCode;
+  src: url('/src/assets/Fira_Code/static/FiraCode-Regular.ttf');
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.App{ 
+  margin: 0px;
+  padding: 0px;
+}
+
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.one {
+  background-color: rgb(19, 18, 18);
+  height: 100vh;
   text-align: center;
+  padding-top: 50vh;
+  margin: 0px;
+  text-align:center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.s {
+  color: rgb(117, 216, 244);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Typewriter__wrapper{
+  color: white;
+  font-family: FiraCode;
+  font-weight: 400;
+  font-size: 180%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Typewriter__cursor {
+  text-decoration: none;
+  animation: Typewriter-cursor 1s infinite;
+  margin-left: 1px;
+  font-size: 2em;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.two {
+  background-color: #e3d5ca;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.three {
+  background-color: #f5ebe0;
+  height: 100vh;
+}
+
+.header {
+  background-color: #d6ccc2;
 }
