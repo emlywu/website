@@ -1,15 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #exp-main {
   height: 100vh;
   color: black;
-  text-align: center;
-  padding-top: 50vh;
+  padding: 30px;
   margin: 0px;
   background-color: #f5ebe0;
   display: flex;
+  flex-direction: column;
+  padding-top: 10vh;
 }
 
-.sw {
+.intern {
+  text-align: left;
+  padding: 25px;
+}
+
+.collapse {
+  margin-top: 0px;
+}
+
+.img {
+  max-width: 150px;
+  padding: 10px;
+}
+
+.collapse-content {
   display: flex;
-  flex-direction: column;
-  width: 25%;
+  flex-direction: row;
+}
+
+.exp-desc {
+  padding: 10px;
+}
+
+.date {
+  font-weight: 600;
+}
+
+.bg {
+  background-color: #d6ccc2;
+}
+
+.tech-stack {
+  font-style: italic;
+}
+
+#company1:checked ~ .collapse-title{
+  background-color: #d6ccc2;
+}
+
+#company2:checked ~ .collapse-title{
+  background-color: #d6ccc2;
+}
+
+#company3:checked ~ .collapse-title{
+  background-color: #d6ccc2;
+}
+
+#company4:checked ~ .collapse-title{
+  background-color: #d6ccc2;
 }
