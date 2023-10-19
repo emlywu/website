@@ -5,12 +5,12 @@
 #exp-main {
   height: 100vh;
   color: black;
-  padding: 30px;
-  margin: 0px;
-  background-color: #f5ebe0;
+  /* padding: 30px; */
+  /* margin: 0px; */
   display: flex;
   flex-direction: column;
   padding-top: 10vh;
+  padding: 30px;
 }
 
 .intern {
@@ -32,34 +32,34 @@
   flex-direction: row;
 }
 
-.exp-desc {
+/* .exp-desc {
   padding: 10px;
-}
+} */
 
 .date {
   font-weight: 600;
 }
 
-.bg {
+/* .bg {
   background-color: #d6ccc2;
-}
+} */
 
 .tech-stack {
   font-style: italic;
 }
 
 #company1:checked ~ .collapse-title{
-  background-color: #d6ccc2;
+  background-color: hsl(var(--b2))
 }
 
 #company2:checked ~ .collapse-title{
-  background-color: #d6ccc2;
+  background-color: hsl(var(--b2))
 }
 
 #company3:checked ~ .collapse-title{
-  background-color: #d6ccc2;
+  background-color: hsl(var(--b2))
 }
 
 #company4:checked ~ .collapse-title{
-  background-color: #d6ccc2;
+  background-color: hsl(var(--b2))
 }

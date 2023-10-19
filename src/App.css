@@ -27,10 +27,9 @@ p {
 .one {
   background-color: rgb(19, 18, 18);
   height: 100vh;
-  text-align: center;
-  padding-top: 50vh;
-  margin: 0px;
-  text-align:center;
+  /* text-align: center; */
+  /* padding-top: 50vh; */
+  /* margin: 0px; */
 }
 
 .s {
@@ -52,16 +51,15 @@ p {
   color: white;
 }
 
-.two {
-  background-color: #e3d5ca;
-  height: 100vh;
+.arrow {
+  max-width: 50px;
 }
 
-.three {
-  background-color: #f5ebe0;
-  height: 100vh;
+.py-6 {
+  color: white;
 }
 
-.header {
-  background-color: #d6ccc2;
+.puzzle {
+  font-weight: 600;
+  text-decoration: underline;
 }
