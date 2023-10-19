@@ -55,6 +55,10 @@ p {
   max-width: 50px;
 }
 
+.arrow:hover {
+  transform: rotate(90deg);
+}
+
 .py-6 {
   color: white;
 }
@@ -62,4 +66,8 @@ p {
 .puzzle {
   font-weight: 600;
   text-decoration: underline;
+}
+
+.arrow-link:hover {
+  transform: rotate(90deg);
 }
