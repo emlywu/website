@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.9e3090d4.js",
+    "main.css": "/static/css/main.e65cf4ea.css",
+    "main.js": "/static/js/main.65527b67.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Cornell_University_Logo.png": "/static/media/Cornell_University_Logo.f0b61c0ddd2e738cf5bb.png",
+    "static/media/PTSans-Regular.ttf": "/static/media/PTSans-Regular.77e92507394e2309d837.ttf",
+    "static/media/FiraCode-Regular.ttf": "/static/media/FiraCode-Regular.dbd175e33b712ffcd71c.ttf",
+    "static/media/qualtrics.png": "/static/media/qualtrics.54cc027eb3287f20f31a.png",
+    "static/media/2021-fja-logo-large-square.jpg": "/static/media/2021-fja-logo-large-square.3048e0c70862593c75cf.jpg",
+    "static/media/jjfx3lindhva5btfest1.webp": "/static/media/jjfx3lindhva5btfest1.e8b7de588bcec7455e1f.webp",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.9e3090d4.js.map": "/static/js/main.9e3090d4.js.map",
+    "main.e65cf4ea.css.map": "/static/css/main.e65cf4ea.css.map",
+    "main.65527b67.js.map": "/static/js/main.65527b67.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.9e3090d4.js"
+    "static/css/main.e65cf4ea.css",
+    "static/js/main.65527b67.js"
   ]
 }
