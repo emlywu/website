@@ -15,9 +15,9 @@ export default function Footer() {
       </aside> 
       <nav>
         <div className="grid grid-flow-col gap-4">
-          <a href="mailto:emilywu51721@gmail.com"><img className="logo" src={emailLogo} /></a> 
-          <a href="https://www.linkedin.com/in/emily-wu-698b451b6/"><img className="logo" src={linkedinLogo} /></a>
-          <a href="https://github.com/emlywu"><img className="logo" src={githubLogo} /></a>
+          <a target="_blank" href="mailto:emilywu51721@gmail.com"><img className="logo" src={emailLogo} /></a> 
+          <a target="_blank" href="https://www.linkedin.com/in/emily-wu-698b451b6/"><img className="logo" src={linkedinLogo} /></a>
+          <a target="_blank" href="https://github.com/emlywu"><img className="logo" src={githubLogo} /></a>
         </div>
       </nav>
     </footer>

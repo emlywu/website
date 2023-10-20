@@ -16,14 +16,14 @@ export default function Experience() {
             <li class="mb-10 ml-4">
                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-accent"></div>
                 <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 ">July 2023 - Present</time>
-                <h3 class="text-lg font-semibold">Software Engineer I @ <a className="company" href="https://fja.com/">FJA-US</a></h3>
+                <h3 class="text-lg font-semibold">Software Engineer I @ <a className="company" target="_blank" href="https://fja.com/">FJA-US</a></h3>
                 <div className="badge badge-primary badge-outline">Java</div>
                 <p class="mb-4 text-base font-normal ">Working on core PMRS runtime services team, supporting client project teams horizontally.</p>
             </li>
             <li class="mb-10 ml-4">
               <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">July 2023 - Present</time>
-              <h3 class="text-lg font-semibold">Software Engineer Intern @ <a href="https://www.qualtrics.com/" className="company">Qualtrics</a></h3>
+              <h3 class="text-lg font-semibold">Software Engineer Intern @ <a target="_blank" href="https://www.qualtrics.com/" className="company">Qualtrics</a></h3>
               <div className="badge badge-primary badge-outline">AngularJS</div>
               <div className="badge badge-primary badge-outline">Java</div>
               <div className="badge badge-primary badge-outline">TypeScript</div>
@@ -34,7 +34,7 @@ export default function Experience() {
             <li class="mb-10 ml-4">
               <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
               <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">January 2022 - May 2023</time>
-              <h3 class="text-lg font-semibold">Teaching Assistant @ <a href="https://www.cornell.edu/" className="company">Cornell University</a></h3>
+              <h3 class="text-lg font-semibold">Teaching Assistant @ <a target="_blank" href="https://www.cornell.edu/" className="company">Cornell University</a></h3>
               <div className="badge badge-primary badge-outline">ReactJS</div>
               <div className="badge badge-primary badge-outline">PHP</div>
               <div className="badge badge-primary badge-outline">SQLite</div>
@@ -48,7 +48,7 @@ export default function Experience() {
             <li class="ml-4">
                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                 <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June 2021 - May 2022</time>
-                <h3 class="text-lg font-semibold">Software Engineer Intern @ <a href="https://www.workstream.us/" className="company">Workstream</a></h3>
+                <h3 class="text-lg font-semibold">Software Engineer Intern @ <a target="_blank" href="https://www.workstream.us/" className="company">Workstream</a></h3>
                 <div className="badge badge-primary badge-outline">ReactJS</div>
               <div className="badge badge-primary badge-outline">Ruby on Rails</div>
               <p>Engineered a digital state tax form module on the public-facing Employee Onboarding module</p>
