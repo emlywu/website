@@ -45,7 +45,7 @@ export default function Experience() {
               <p>Supported students in INFO 2300: Intermediate Web Design and Programming (Spring '22, Spring '23) and INFO 3300: Data Driven Web Applications (Fall '22) </p>
               <p>Held office hours, graded assignments, taught weekly discussion sections (INFO 2300), and by mentored student project groups (INFO 3300).</p>
             </li>
-            <li class="ml-4">
+            <li class="mb-10 ml-4">
                 <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
                 <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">June 2021 - May 2022</time>
                 <h3 class="text-lg font-semibold">Software Engineer Intern @ <a target="_blank" href="https://www.workstream.us/" className="company">Workstream</a></h3>
@@ -54,6 +54,18 @@ export default function Experience() {
               <p>Engineered a digital state tax form module on the public-facing Employee Onboarding module</p>
               <p>Streamlined sorting functionalities, introduced filter support and data autocompletion, and investigated customer reported issues for 1000+ users</p>
               <p>Collaborated across sub teams and with QA engineers and worked in an Agile development environment</p>
+            </li>
+            <li class="mb-10 ml-4">
+              <div class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+              <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">October 2020 - November 2021</time>
+              <h3 class="text-lg font-semibold">Project Developer @ <a target="_blank" href="https://www.developforgood.org/" className="company">Develop For Good</a></h3>
+              <div className="badge badge-primary badge-outline">ReactJS</div>
+              <div className="badge badge-primary badge-outline">HTML</div>
+              <div className="badge badge-primary badge-outline">CSS</div>
+              <div className="badge badge-primary badge-outline">Figma</div>
+              <p>Worked with non-profits Care Live Well Zambia and Warriors and Quiet Waters (WQW) to create React based web apps</p>
+              <p>Leveraged REST API to support token-based authentication and dynamically rendered information from Salesforce to display in WQW web app</p>
+              <p>Designed and coded Care Live Well Zambia web app, optimizing for mobile and slow internet connectivity.</p>
             </li>
         </ol>
       </div>
