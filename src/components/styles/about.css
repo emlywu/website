@@ -6,25 +6,8 @@
   padding: 20px;
 }
 
-.text {
-  padding: 5%;
-  display: flex;
-}
-
 .about-tw {
   color: black;
-  text-align: left;
-}
-
-.about-img {
-  background-color: darkgray;
-  max-width: 300px;
-  margin: 20px;
-}
-
-.about-txt {
-  padding: 10%;
-  align-self: flex-start;
   text-align: left;
 }
 
@@ -35,4 +18,9 @@
 .emphasis {
   color: hsl(var(--a));
   font-weight: 600;
+}
+
+.puzzle {
+  font-weight: 600;
+  text-decoration: underline;
 }

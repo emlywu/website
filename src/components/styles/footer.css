@@ -5,8 +5,3 @@
 .logo {
   max-height: 24px;
 }
-
-.text {
-  display: flex;
-  /* flex-direction: column; */
-}

@@ -17,24 +17,22 @@ p {
   padding: 0px;
 }
 
-*{
-  -ms-overflow-style: none;
-}
-::-webkit-scrollbar {
-  display: none;
+.arrow {
+  max-width: 50px;
 }
 
-.one {
-  background-color: rgb(19, 18, 18);
-  height: 100vh;
-  /* text-align: center; */
-  /* padding-top: 50vh; */
-  /* margin: 0px; */
+.arrow:hover {
+  transform: rotate(90deg);
 }
 
-.s {
-  color: rgb(117, 216, 244);
+.py-6 {
+  color: white;
 }
+
+.arrow-link:hover {
+  transform: rotate(90deg);
+}
+
 
 .Typewriter__wrapper{
   color: white;
@@ -48,26 +46,5 @@ p {
   animation: Typewriter-cursor 1s infinite;
   margin-left: 1px;
   font-size: 2em;
-  color: white;
-}
-
-.arrow {
-  max-width: 50px;
-}
-
-.arrow:hover {
-  transform: rotate(90deg);
-}
-
-.py-6 {
-  color: white;
-}
-
-.puzzle {
-  font-weight: 600;
-  text-decoration: underline;
-}
-
-.arrow-link:hover {
-  transform: rotate(90deg);
+  color: black;
 }

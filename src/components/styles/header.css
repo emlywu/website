@@ -1,50 +1,8 @@
-@font-face {
-  font-family: PTSans;
-  src: url('/src/assets/PT_Sans/PTSans-Regular.ttf');
-}
-
 .navbar {
   margin: 0 0 0 0;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: end; */
-  /* font-size: 1.25em;
-  font-family: PTSans;
-  font-weight: 600; */
   position: sticky;
   z-index: 1;
   width: 100%;
   top: 0;
   left: 0;
 }
-
-.header-main{
-  /* background-color: #d6ccc2; */
-  margin: 0 0 0 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  font-size: 1.25em;
-  font-family: PTSans;
-  font-weight: 600;
-  position: sticky;
-  z-index: 1;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-
-.header-links {
-  padding: 1em;
-  text-decoration: none;
-  color: white;
-}
-
-.header-links:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-/* .flex-1 {
-  color: black;
-} */

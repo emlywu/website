@@ -7,7 +7,7 @@ export default function About() {
     <div id="about-main" className="bg-base-100">
       <div className="hero min-h-screen">
         <div className="hero-content flex-col lg:flex-row">
-          <img src={me} className="max-w-sm rounded-lg shadow-2xl" />
+          <img src={me} alt="Emily smiling next to Ezra Cornell statue" className="max-w-sm rounded-lg shadow-2xl" />
           <div>
             <Typewriter className="about-tw"
               onInit={(typewriter) => {

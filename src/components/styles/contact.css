@@ -7,11 +7,6 @@
   margin: 10px;
 }
 
-.contacts {
-  display: flex;
-  flex-direction: row;
-}
-
 .contact-txt {
   color: hsl(var(--n));
   padding: 10px;
