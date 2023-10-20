@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="hero-content text-center">
         <div className="max-w-md">
           <h1 className="text-5xl font-bold">Let's get in touch!</h1>
-          <p className="contact-txt">Always happy to chat about my experiences or if you have any new opportunities for me. Excited to try and learn new things.</p>
+          <p className="contact-txt">Happy to chat about my experiences or learn about yours! I'm always open to new opportunities, so feel free to reach out below :)</p>
           <button class="btn"><a href="mailto:emilywu51721@gmail.com">Say Hi!</a></button>
             {/* <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
               <li><a>Item 1</a></li>

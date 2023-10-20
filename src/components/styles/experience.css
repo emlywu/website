@@ -5,17 +5,18 @@
 #exp-main {
   height: 100vh;
   color: black;
-  /* padding: 30px; */
-  /* margin: 0px; */
-  display: flex;
-  flex-direction: column;
   padding-top: 10vh;
-  padding: 50px;
+  margin: 0px;
+  padding: 20px;
+  overflow: scroll;
+  scrollbar-color: red orange;
+  scrollbar-width: thin;
 }
 
 .intern {
   text-align: left;
-  padding: 25px;
+  padding: 10%;
+
 }
 
 .collapse {
@@ -62,4 +63,13 @@
 
 #company4:checked ~ .collapse-title{
   background-color: hsl(var(--b2))
+}
+
+.badge {
+  margin: 2px;
+}
+
+.company:hover {
+  color: hsl(var(--a));
+  text-decoration: underline;
 }
