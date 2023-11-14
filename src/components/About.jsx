@@ -20,6 +20,7 @@ export default function About() {
             <p>I am a New Jersey native, based in the New York Metropolitan Area, and a big fan of puzzles of all kind! I've always thought coding was like solving a puzzle — something highly logical, yet may require creative solutions. Some of my favorite puzzles are 
             The Washington Post's <a className="puzzle emphasis" href="https://www.washingtonpost.com/crossword-puzzles/daily/">The Daily Crossword</a>, The New York Times' 
             <a className="puzzle emphasis" href="https://www.nytimes.com/games/connections"> Connections,</a> and Nonograms.</p><br />
+            <p>Other than puzzles, I love reading (favorite genres are mystery, thriller, and science fiction) and creating digital art! I'm currently reading <em>The Three Body Problem</em> by Liu Cixin.</p>
           </div>
         </div>
       </div>

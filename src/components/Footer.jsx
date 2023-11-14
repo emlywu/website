@@ -11,6 +11,7 @@ export default function Footer() {
         <p className="font-bold">
           Designed & Built by Emily Wu, v1 2023. <br/> — emilywu51721@gmail.com —
         </p> 
+        <p>Last Updated: Nov 14 2023</p>
         <cite className="text-neutral-focus">Icons by <a target="_blank" href="https://icons8.com">Icons8</a></cite>
       </aside> 
       <nav>
