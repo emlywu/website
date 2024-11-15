@@ -1,0 +1,23 @@
+
+.badge {
+  color: #8dc8ff;
+}
+
+.timeline {
+  flex-direction: column;
+  display: flex;
+}
+
+.company:hover {
+  color:#8dc8ff;
+  text-decoration: underline;
+}
+
+li {
+  padding: 10px;
+}
+
+li:hover{
+  background-color: #574741;
+  border-radius: 10px;
+}

@@ -1,0 +1,15 @@
+.socials {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.icon {
+  margin: 5px;
+  max-height:30px;
+}
+
+.icon:hover{
+  max-height: 35px;
+}

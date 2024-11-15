@@ -1,0 +1,33 @@
+@font-face{
+  font-family: OpenSans;
+  src: url('/src/assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
+}
+
+h1 {
+  font-family: 'OpenSans';
+  color: #8dc8ff;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+h2 {
+  color: #cde6f5;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: 'OpenSans';
+}
+
+p {
+  color: white;
+  margin-bottom: 2%;
+  font-family: 'OpenSans';
+  font-size: 16px;
+}
+
+.text-db {
+  color:#8dc8ff;
+}
+
+.text-lb {
+  color: #bee2f8;
+}
