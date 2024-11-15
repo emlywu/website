@@ -3,6 +3,16 @@
   src: url('/src/assets/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf');
 }
 
+/* Text container for intro */
+.intro-text h1 {
+  margin: 10px 0;
+  font-size: 2rem;
+}
+
+.intro-text h2 {
+  font-size: 1.5rem;
+}
+
 h1 {
   font-family: 'OpenSans';
   color: #8dc8ff;
@@ -21,7 +31,7 @@ p {
   color: white;
   margin-bottom: 2%;
   font-family: 'OpenSans';
-  font-size: 16px;
+  font-size: 1.0rem;
 }
 
 .text-db {
