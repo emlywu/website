@@ -12,8 +12,8 @@ function App() {
           <img className="intro-img" src={memoji} alt="Memoji of girl smiling, with hands out in a waving motion" />
         </div>
         <div className="intro-text">
-          <h2 className="justify-self-center">Hi there, my name is</h2>
-          <h1 className="justify-self-center">Emily Wu</h1>
+          <h2>Hi there, my name is</h2>
+          <h1>Emily Wu</h1>
         </div>
         <SocialsIcons />
       </div>

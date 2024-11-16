@@ -9,6 +9,8 @@ export default function Timeline() {
           <time class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500 ">July 2023 - Present</time>
           <h3 class="text-lg font-semibold text-lb">Software Engineer I @ <a className="company" target="_blank" rel="noreferrer" href="https://fja.com/">FJA-US</a></h3>
           <div className="badge badge-outline">Java</div>
+          <div className="badge badge-outline">Python</div>
+          <div className="badge badge-outline">Jenkins</div>
           <p class="mb-4 text-base font-normal ">
             Working on core PMRS runtime services team, supporting client project teams by providing personalized software solutions. 
             Building and maintaining services as we transform our core services into scalable, web-based solutions

@@ -14,7 +14,6 @@ html {
   background-color: #3d322e;
 }
 
-/* Intro text styling */ 
 .intro-container {
   display: flex;
   flex-direction: column;
@@ -22,7 +21,6 @@ html {
   max-width: 30vw;
   position: sticky;
   align-items: center;
-  justify-content: left;
 }
 
 .info-container{
